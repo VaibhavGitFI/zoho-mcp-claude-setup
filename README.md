@@ -4,6 +4,26 @@ Connect Zoho CRM, Mail, and Cliq to Claude using the official Zoho MCP servers. 
 
 ---
 
+## Quickstart (Recommended)
+
+If you're on macOS or Linux, the setup script handles everything automatically:
+
+```bash
+git clone https://github.com/VaibhavGitFi/zoho-mcp-claude-setup.git
+cd zoho-mcp-claude-setup
+bash setup.sh
+```
+
+The script will:
+- Detect your Node.js installation (including nvm)
+- Ask for your Zoho MCP URLs
+- Update both Claude Desktop config and Claude Code CLI
+- Walk you through the OAuth authentication flow
+
+> For Windows or manual setup, follow the step-by-step guide below.
+
+---
+
 ## Table of Contents
 
 1. [What Is MCP?](#what-is-mcp)
